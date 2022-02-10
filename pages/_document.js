@@ -3,7 +3,7 @@ import Document, { Html, Head, Main, NextScript } from "next/document";
 class PWADocument extends Document {
   render() {
     return (
-      <Html>
+      <Html lang="en">
         <Head>
           <link rel="manifest" href="/manifest.webmanifest" />
           <link rel="apple-touch-icon" href="/icon-192x192.png" />
